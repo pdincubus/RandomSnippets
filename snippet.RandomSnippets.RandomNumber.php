@@ -2,8 +2,8 @@
 /*
 * Little snippet to generate random numbers up to a specified length, with optional formatting.
 * Call as follows: [[!RandomNumber? &formatNumber=`1` &length=`5`]]
-* @author Phil Steer
-* @version 0.1
+* @author Phil Steer (pdincubus)
+* @github https://github.com/pdincubus/RandomSnippets
 */
 
 $stringLength = $modx->getOption('length', $scriptProperties, 5);
