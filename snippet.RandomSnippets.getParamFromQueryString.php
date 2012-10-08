@@ -15,9 +15,9 @@
 $wanted = $modx->getOption('key', $scriptProperties, '');
 
 //loop through entire query string checking if key is wanted
-foreach($_GET as $key => $value){
+foreach($_REQUEST as $key => $value){
     if($key = $wanted){
-    				//if yes, return value
+    	//if yes, return value
         return $value;
     }
 }

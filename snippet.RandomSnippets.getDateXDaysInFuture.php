@@ -10,9 +10,6 @@
 
 $distance = $modx->getOption('distance', $scriptProperties, '7');
 
-$day = date(d)+$distance;
-$month = date(m);
-$year = date(Y);
+$futureDate=Date('Y-m-d', strtotime("+". $distance ." days"));
 
-$futureDate = $year . '-' . $month . '-' . $day;
 return $futureDate;
