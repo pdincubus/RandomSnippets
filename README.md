@@ -27,3 +27,38 @@ Formatting will stick commas in the right place.
 Call as follows:
 
 ```[[!RandomNumber? &formatNumber=`1` &length=`5`]]```
+
+
+## getParamFromQueryString
+
+Looks through the query string for the page, returns the value for any specific key it finds. e.g - from the URL:
+
+```http://www.test-site.com?index=yes&test=help&trevor=harold```
+
+Using this on page:
+
+```[[!getParamFromQueryString? &key=`test`]]```
+
+Above will return 'help'
+
+
+## getDateXDaysInFuture
+
+Returns a date x days in the future.
+
+Call as follows:
+
+```[[!getDateXDaysInFuture? &distance=`7`]]```
+
+Above will produce similar to: 2012-10-08
+
+
+## round
+
+Custom output modifier, uses PHP round() to round up or down the number input.
+
+Call as follows: 
+
+```[[*thingThatIsANumber:round]]```
+
+This doesn't do any checking to see if you've actually put a number in or not.
