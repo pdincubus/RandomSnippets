@@ -33,7 +33,7 @@ Call as follows:
 
 Looks through the query string for the page, returns the value for any specific key it finds. e.g - from the URL:
 
-```http://www.test-site.com?index=yes&test=help&trevor=harold```
+http://www.test-site.com?index=yes&test=help&trevor=harold
 
 Using this on page:
 
