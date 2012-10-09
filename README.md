@@ -55,10 +55,4 @@ Above will produce similar to: 2012-10-08
 
 ## round
 
-Custom output modifier, uses PHP round() to round up or down the number input.
-
-Call as follows: 
-
-```[[*thingThatIsANumber:round]]```
-
-This doesn't do any checking to see if you've actually put a number in or not.
+Custom output modifier, uses PHP round() to round up or down the number input. This doesn't do any checking to see if you've actually put a number in or not.
