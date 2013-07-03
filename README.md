@@ -63,12 +63,16 @@ Custom output filter written specifically to take the value from a text input in
 
 Use similarly to the following:
 
-```[[!getKeywords:splitKeywords=`&andOr=AND&type=LIKE&beforeKeyword=%&afterKeyword=%&field=longtitle`]]```
+```
+[[!getKeywords:splitKeywords=`&andOr=AND&type=LIKE&beforeKeyword=%&afterKeyword=%&field=longtitle`]]
+```
 
 ### Options (with default values)
 
-* &andOr=OR
-* &type=LIKE
-* &beforeKeyword=%
-* &afterKeyword=%
-* &field=longtitle
+```
+&andOr=OR
+&type=LIKE
+&beforeKeyword=%
+&afterKeyword=%
+&field=longtitle
+```
