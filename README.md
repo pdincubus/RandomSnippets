@@ -56,3 +56,21 @@ Above will produce similar to: 2012-10-08
 ## round
 
 Custom output modifier, uses PHP round() to round up or down the number input. This doesn't do any checking to see if you've actually put a number in or not.
+
+## splitKeywords
+
+Custom output filter written specifically to take the value from a text input in a form, explode each word into and array and then format it nicely for getResources. There's probably an easier way to do this. Maybe. I had a snippet grabbing the value from the query string first.
+
+Use similarly to the following:
+
+```[[!getKeywords:splitKeywords=`&andOr=AND&type=LIKE&beforeKeyword=%&afterKeyword=%&field=longtitle`]]```
+
+###Options (with default values)
+
+```
+&andOr=OR
+&type=LIKE
+&beforeKeyword=%
+&afterKeyword=%
+&field=longtitle
+```
