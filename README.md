@@ -65,12 +65,10 @@ Use similarly to the following:
 
 ```[[!getKeywords:splitKeywords=`&andOr=AND&type=LIKE&beforeKeyword=%&afterKeyword=%&field=longtitle`]]```
 
-###Options (with default values)
+### Options (with default values)
 
-```
-&andOr=OR
-&type=LIKE
-&beforeKeyword=%
-&afterKeyword=%
-&field=longtitle
-```
+* &andOr=OR
+* &type=LIKE
+* &beforeKeyword=%
+* &afterKeyword=%
+* &field=longtitle
